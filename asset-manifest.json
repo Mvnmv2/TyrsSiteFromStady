@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TyrsSiteFromStady/static/css/main.7ed4bb8e.css",
+    "main.js": "/TyrsSiteFromStady/static/js/main.e3861858.js",
+    "static/js/787.c1560079.chunk.js": "/TyrsSiteFromStady/static/js/787.c1560079.chunk.js",
+    "static/media/banner_new.jpeg": "/TyrsSiteFromStady/static/media/banner_new.cc7fee9ed3c6d16c233a.jpeg",
+    "index.html": "/TyrsSiteFromStady/index.html",
+    "main.7ed4bb8e.css.map": "/TyrsSiteFromStady/static/css/main.7ed4bb8e.css.map",
+    "main.e3861858.js.map": "/TyrsSiteFromStady/static/js/main.e3861858.js.map",
+    "787.c1560079.chunk.js.map": "/TyrsSiteFromStady/static/js/787.c1560079.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ed4bb8e.css",
+    "static/js/main.e3861858.js"
+  ]
+}
