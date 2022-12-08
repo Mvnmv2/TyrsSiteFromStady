@@ -1,0 +1,44 @@
+header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #5ae7ff;
+    padding: 20px 50px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Courgette';
+    color: #2655ff;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-decoration: none;
+    justify-items: end;
+}
+
+.nav_item {
+    color: #2655ff;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: crosshair;
+    /*border: none;*/
+    background-color: #5ae7ff;
+    font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    header {
+        background-color: #fff;
+        grid-template-columns: 1fr;
+    }
+}
