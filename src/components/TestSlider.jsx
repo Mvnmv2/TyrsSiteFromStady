@@ -13,20 +13,22 @@ export default class TestSlider extends Component {
             autoplaySpeed: 2000,
             cssEase: "linear"
         };
+
+        // {require('/изображения/image-name.png')
         return (
             <div className="slider">
                 <Slider {...settings}>
                     <div>
-                        <img src="./img/first.jpg" width={600} height={350}/>
+                        <img src={require('../assets/images/first.jpg')} width={500} height={350}/>
                     </div>
                     <div>
-                        <img src="./img/second.jpg" width={600} height={350}/>
+                        <img src={require('../assets/images/second.jpg')} width={500} height={350}/>
                     </div>
                     <div>
-                        <img src="./img/three.jpg" width={600} height={350}/>
+                        <img src={require('../assets/images/three.jpg')} width={500} height={350}/>
                     </div>
                     <div>
-                        <img src="./img/four.jpg" width={600} height={350}/>
+                        <img src={require('../assets/images/four.jpg')} width={500} height={350}/>
                     </div>
                 </Slider>
             </div>

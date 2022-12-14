@@ -45,7 +45,7 @@ const Cart = (props) => {
             <div className={styles.search}>
                 <h2>Туры:</h2>
                 <div className={styles.search_block}>
-                    <img src="/img/search.png" alt="Поиск"/>
+                    <img src={require("../../assets/images/search.png")} alt="Поиск"/>
                     <input onChange={onClickSearch} type="text" placeholder="Поиск"/>
                 </div>
             </div>

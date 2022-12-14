@@ -51,10 +51,9 @@ const Product = (props) => {
                 <span>{props.price}</span>
                 <button className={styles.add_card}
                         onClick={onClickAdd}>
-                    {context.isAdded(props.myId) ?  <img src={context.isAdded(props.myId) ? '/img/icon.png' : ''} width={12} alt=""/>
+                    {context.isAdded(props.myId) ?  <img src={context.isAdded(props.myId) ? require("../../../assets/images/icon.png") : ''} width={12} alt=""/>
                     : 'Оставить заявку' }
                 </button>
-
             </div>
         </div>
     )
