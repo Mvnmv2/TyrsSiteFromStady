@@ -41,7 +41,7 @@ const Product = (props) => {
             }
 
 
-            <img className={styles.cart_img} src={props.img} alt="Картинка"/>
+            <img className={styles.cart_img} src={process.env.PUBLIC_URL + props.img} alt="Картинка"/>
             <p className={styles.cart_title}>{props.title}</p>
             <p className="cart_desc">Сочи Из Москва - 7 Ночей</p>
             <p className="cart_desc">05.12.22 - 2 взрослых</p>

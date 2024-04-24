@@ -4,6 +4,43 @@ import Cart from "./cart/Cart";
 import TestSlider from "./TestSlider";
 
 const Home = (props) => {
+
+
+    const item = [
+    {
+        id: 1,
+        title: "Название 1",
+        price: "36 000",
+        img: '/img/1.jpeg'
+    },
+    {
+        id: 2,
+        title: "Название 2",
+        price: "36 000",
+        img: "/img/1.jpeg"
+    },
+    {
+        id: 2,
+        title: "Название 3",
+        price: "36 000",
+        img: "/img/1.jpeg"
+    },
+    {
+        id: 4,
+        title: "Название 4",
+        price: "36 000",
+        img: "/img/1.jpeg"
+    },
+    {
+        id: 5,
+        title: "Название 5",
+        price: "36 000",
+        img: "/img/1.jpeg"
+    },
+
+]
+
+
     return (
         <>
             <TestSlider/>
@@ -17,7 +54,7 @@ const Home = (props) => {
                     туристов из России, стран бывшего СССР и Восточной Европы. TEZ TOUR основан в 1994 году.
                     Туры:</p>
             </div>
-            <Cart item={props.item}
+            <Cart item={item}
                   overlayItems={props.overlayItems}
                   setOverlayItems={props.setOverlayItems}
                   setSearch={props.setSearch}
