@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TyrsSiteFromStady/static/css/main.7ed4bb8e.css",
-    "main.js": "/TyrsSiteFromStady/static/js/main.8c7cc239.js",
+    "main.css": "/TyrsSiteFromStady/static/css/main.c34af5e7.css",
+    "main.js": "/TyrsSiteFromStady/static/js/main.cc35ad0a.js",
     "static/js/787.c1560079.chunk.js": "/TyrsSiteFromStady/static/js/787.c1560079.chunk.js",
     "static/media/second.jpg": "/TyrsSiteFromStady/static/media/second.158e12248a01bd878055.jpg",
     "static/media/banner_new.jpeg": "/TyrsSiteFromStady/static/media/banner_new.cc7fee9ed3c6d16c233a.jpeg",
@@ -10,12 +10,12 @@
     "static/media/four.jpg": "/TyrsSiteFromStady/static/media/four.76a51ff301119d8eb99c.jpg",
     "static/media/search.png": "/TyrsSiteFromStady/static/media/search.e8563404d6d7f7de7011.png",
     "index.html": "/TyrsSiteFromStady/index.html",
-    "main.7ed4bb8e.css.map": "/TyrsSiteFromStady/static/css/main.7ed4bb8e.css.map",
-    "main.8c7cc239.js.map": "/TyrsSiteFromStady/static/js/main.8c7cc239.js.map",
+    "main.c34af5e7.css.map": "/TyrsSiteFromStady/static/css/main.c34af5e7.css.map",
+    "main.cc35ad0a.js.map": "/TyrsSiteFromStady/static/js/main.cc35ad0a.js.map",
     "787.c1560079.chunk.js.map": "/TyrsSiteFromStady/static/js/787.c1560079.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ed4bb8e.css",
-    "static/js/main.8c7cc239.js"
+    "static/css/main.c34af5e7.css",
+    "static/js/main.cc35ad0a.js"
   ]
 }
